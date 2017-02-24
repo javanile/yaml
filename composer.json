@@ -1,6 +1,6 @@
 {
     "name": "javanile/yaml",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "repositories": [{"type": "git", "url": "https://github.com/Javanile/Yaml"}],
     "autoload": {"psr-4": { "Javanile\\Yaml\\": "src" }},
     "require": {"symfony/yaml": "^3.2"}
