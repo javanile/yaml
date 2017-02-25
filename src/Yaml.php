@@ -21,10 +21,11 @@ use Symfony\Component\Yaml\Yaml as SymfonyYaml;
 class Yaml extends SymfonyYaml
 {
     /**
-     * Parse YAML file and resolve included files
+     * Parse YAML file and resolve included files.
      *
      * @param $filename
      * @param string $includeTag
+     *
      * @return array
      */
     public static function resolve($filename, $includeTag = 'include')
