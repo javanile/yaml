@@ -15,6 +15,6 @@ engines:
       rulesets: "unusedcode,codesize,naming"
 ratings:
   paths:
-  - "**.php"
+  - src/**
 exclude_paths:
-- "tests/*"
+- tests/**
