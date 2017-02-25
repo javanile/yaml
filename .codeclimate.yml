@@ -8,6 +8,7 @@ engines:
     config:
       file_extensions: "php"
       standard: "PSR1,PSR2"
+      ignore_warnings: false
   phpmd:
     enabled: true
     config:
