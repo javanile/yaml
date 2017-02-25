@@ -9,9 +9,9 @@ before_script:
   - composer install --no-interaction
 
 script:
-  - vendor/bin/phpunit \
-    --configuration phpunit.xml \
-    --bootstrap ./vendor/autoload.php \
+  - vendor/bin/phpunit
+    --configuration phpunit.xml
+    --bootstrap ./vendor/autoload.php
     --coverage-clover build/logs/clover.xml
 
 after_success:
