@@ -1,13 +1,13 @@
 {
-    "name": "javanile/yaml",
-    "version": "0.0.3",
-    "repositories": [{"type": "git", "url": "https://github.com/Javanile/Yaml"}],
-    "autoload": {"psr-4": { "Javanile\\Yaml\\": "src" }},
-    "require": {
-        "symfony/yaml": "^3.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.0",
-        "codeclimate/php-test-reporter": "dev-master"
-    }
+  "name": "javanile/yaml",
+  "version": "0.0.4",
+  "repositories": [{"type": "git", "url": "https://github.com/Javanile/Yaml"}],
+  "autoload": {"psr-4": { "Javanile\\Yaml\\": "src" }},
+  "require": {
+    "symfony/yaml": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "codeclimate/php-test-reporter": "dev-master"
+  }
 }
