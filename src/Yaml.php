@@ -41,7 +41,7 @@ class Yaml extends SymfonyYaml
     /**
      * Walk through array and find include tag.
      *
-     * @param array $yaml        reference of an array
+     * @param array  $yaml       reference of an array
      * @param string $path       base path for relative inclusion
      * @param string $includeTag tag to include file
      */
