@@ -16,8 +16,7 @@ namespace Javanile\Yaml;
 use Symfony\Component\Yaml\Yaml as SymfonyYaml;
 
 /**
- * Class Yaml
- * @package Javanile\Yaml
+ * Class Yaml.
  */
 class Yaml extends SymfonyYaml
 {
@@ -41,8 +40,8 @@ class Yaml extends SymfonyYaml
     /**
      * Walk through array and find include tag.
      *
-     * @param array $yaml reference of an array
-     * @param string $path base path for relative inclusion
+     * @param array $yaml        reference of an array
+     * @param string $path       base path for relative inclusion
      * @param string $includeTag tag to include file
      */
     private static function recursiveResolve(&$yaml, $path, $includeTag)
